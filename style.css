@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f4f1ea;
+    color: #1f1a17;
+}
+
+.card {
+    max-width: 36rem;
+    margin: 3rem auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+}
+
+.intro {
+    margin: 0 0 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: end;
+}
+
+label {
+    display: block;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+select,
+button {
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.45rem 0.7rem;
+}
+
+select {
+    min-width: 12rem;
+    background: white;
+}
+
+button {
+    cursor: pointer;
+    background: #1f1a17;
+    color: #f4f1ea;
+    border: 0;
+}
+
+button:disabled {
+    cursor: wait;
+    opacity: 0.6;
+}
+
+#status {
+    min-height: 1.4rem;
+}
+
+#photo {
+    display: block;
+    width: 100%;
+    max-width: 32rem;
+    max-height: 28rem;
+    object-fit: contain;
+    background: white;
+}
+
+#photo[hidden] {
+    display: none;
+}

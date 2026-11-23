@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal picture picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <h1>Animal picture picker</h1>
+        <p class="intro">Choose an animal, then confirm to see a random photo.</p>
+
+        <form id="picker">
+            <label for="animal">Animal</label>
+            <select id="animal" name="animal">
+                <option value="">Select an animal</option>
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="fox">Fox</option>
+                <option value="duck">Duck</option>
+            </select>
+            <button type="submit" id="confirm">Confirm</button>
+        </form>
+
+        <p id="status" role="status">Pick an animal to begin.</p>
+        <img id="photo" alt="" hidden>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
