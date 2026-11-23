@@ -12,8 +12,7 @@ I made this while trying out Cursor.
 
 If you confirm before choosing, the page asks you to pick an animal and does not call an API. If a request fails, the message says so and the previous photo stays.
 
-![The animal picker showing a random photo](<img width="742" height="711" alt="duck" src="https://github.com/user-attachments/assets/87167acf-a369-4efb-9bb0-83db516650fa" />
-)
+![The animal picker showing a random photo](https://github.com/user-attachments/assets/87167acf-a369-4efb-9bb0-83db516650fa)
 
 ## How it works
 
